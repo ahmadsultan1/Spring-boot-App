@@ -49,6 +49,7 @@ public class SchoolREST {
 	public String updateStudent(@RequestParam String id, @RequestBody Student student) throws Exception {
 		SchoolImpl.updateStudent(id, student);
 		return student.getFirstName() +"  "+ student.getLastName() + " has been updated";
+		
 	}
 	
 //	@RequestMapping(value = "/addfile", method = RequestMethod.POST)
