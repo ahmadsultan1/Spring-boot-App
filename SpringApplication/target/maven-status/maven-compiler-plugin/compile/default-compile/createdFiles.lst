@@ -1,0 +1,7 @@
+models\FileMetadata.class
+models\Student.class
+springBootApp\SchoolImpl.class
+springBootApp\SchoolREST.class
+springBootApp\DataStore.class
+practice\Application.class
+springBootApp\App.class
